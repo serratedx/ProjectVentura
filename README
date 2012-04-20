@@ -5,3 +5,12 @@ This project is a collaboration between Jay (serratedx) and Cody (planet95).
 Major patch notes should be places here below version number and date committed.
 
 -Jay
+
+----------
+
+4/20/12 - 2:00 PM PST - Jay
+
+-Created a new view in res/layout/
+-Added a button for each view (Not yet operational)
+-Changed text for each view. One quote for each view.
+-Added string values to res/values/
