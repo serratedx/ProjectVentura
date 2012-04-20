@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, ProjectVenturaActivity!</string>
-    <string name="app_name">ProjectVentura</string>
-
+    <string name="hello">Hello, Android! I am a string resource!</string>
+    <string name="app_name">Hello, Android</string>
+    <string name="cody_quote">Hello World! -Cody</string>
+    <string name="jay_quote">Goodby World! -Jay</string>
+    <string name="my_button_text">Ready to Go</string>
+    <string name="my_button_text2">Press Again?</string>
 </resources>

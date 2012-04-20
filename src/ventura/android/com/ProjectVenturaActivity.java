@@ -3,15 +3,21 @@ package ventura.android.com;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class ProjectVenturaActivity extends Activity {
+	
     /** Called when the activity is first created. */
     @Override
+    
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TextView tv = new TextView(this);
-        tv.setText("Hello World! --Cody");
-        setContentView(tv);
+        
+        Button myButton = (Button) findViewById(R.id.my_button);
+        
+        Button mySecondButton = (Button) findViewById(R.id.my_button_two);
+        
+        setContentView(R.layout.main);                   
     }
 }
 
