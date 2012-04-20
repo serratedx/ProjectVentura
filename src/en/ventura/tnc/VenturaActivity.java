@@ -13,5 +13,8 @@ public class VenturaActivity extends Activity {
         tv.setText("Hello, Android 50000");
         setContentView(tv);
         
+        tv.setText("Hello, Android 100000");
+        setContentView(tv);
+        
     }
 }
