@@ -1,24 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              		android:layout_width="fill_parent" 
-              		android:layout_height="fill_parent"
-              		android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/cody_quote" />
 
-    	<TextView   android:id="@+id/textDisplay"
-       				android:layout_width="fill_parent"
-      				android:layout_height="wrap_content"
-        			android:text="@string/cody_quote" />
+    <Button
+        android:id="@+id/jays_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textDisplay"
+        android:layout_marginLeft="43dp"
+        android:text="@string/jay_button_text" />
 
-		<Button 	android:id="@+id/jays_Button"
-        			android:layout_width="wrap_content"
-       				android:layout_height="wrap_content"
-        			android:text="@string/jay_button_text"/>
+    <Button
+        android:id="@+id/codys_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/jays_Button"
+        android:layout_alignBottom="@+id/jays_Button"
+        android:layout_marginLeft="38dp"
+        android:layout_toRightOf="@+id/jays_Button"
+        android:text="@string/cody_button_text" />
 
-		<Button
-		    android:id="@+id/codys_Button"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="@string/cody_button_text" />
-
-</LinearLayout>
+</RelativeLayout>

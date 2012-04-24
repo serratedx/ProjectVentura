@@ -11,9 +11,6 @@ import android.widget.TextView;
 	    private TextView textDisplay;
 	    private Button jaysButton;
 	    private Button codysButton;
-	    //private int num1;
-
-	    static final int DATE_DIALOG_ID = 0;
 	
     /** Called when the activity is first created. */
     
@@ -41,14 +38,6 @@ import android.widget.TextView;
 			}
 		});
 
-
-        // display the current date (this method is below)
-        //updateDisplay();
-           
     }
 
 }
-
-/** committing a new change to the src */
-/** This comment is to show a commit from another PC */
-/** One more commit to check the main PC push and Laptop pull */
