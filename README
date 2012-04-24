@@ -8,6 +8,17 @@ Major patch notes should be places here below version number and date committed.
 
 ----------
 
+4/23/12 - 6:50 PM PST - Jay
+
+-Added a second button to the screen
+-Made them change the quote being displayed
+-Removed view2.xml for the time being.
+-Changed some value names to properly match their usage
+-Toyed with more sample code, but most of that should be omitted now.
+-Learned about the Ctrl+Shift+O combo. Life is much easier.
+
+----------
+
 4/20/12 - 2:00 PM PST - Jay
 
 -Created a new view in res/layout/

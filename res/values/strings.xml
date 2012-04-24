@@ -4,6 +4,6 @@
     <string name="app_name">Hello, Android</string>
     <string name="cody_quote">Hello World! -Cody</string>
     <string name="jay_quote">Goodby World! -Jay</string>
-    <string name="my_button_text">Ready to Go</string>
-    <string name="my_button_text2">Press Again?</string>
+    <string name="jay_button_text">Jay\'s Quote</string>
+    <string name="cody_button_text">Cody\'s Quote</string>
 </resources>
