@@ -16,6 +16,7 @@ Major patch notes should be places here below version number and date committed.
 -Changed some value names to properly match their usage
 -Toyed with more sample code, but most of that should be omitted now.
 -Learned about the Ctrl+Shift+O combo. Life is much easier.
+-Changed layout from Linear to Relative. 
 
 ----------
 
